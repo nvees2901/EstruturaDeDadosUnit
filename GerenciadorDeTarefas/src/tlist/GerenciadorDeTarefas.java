@@ -1,4 +1,4 @@
-package tlist;
+	package tlist;	
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class GerenciadorDeTarefas {
         ListaTarefas lista = new ListaTarefas();
         int opcao;
         
-        do {
+        do {	
             System.out.println("\n=== GERENCIADOR DE TAREFAS ===");
             System.out.println("1. Adicionar Tarefa");
             System.out.println("2. Editar Tarefa");
@@ -51,10 +51,10 @@ public class GerenciadorDeTarefas {
                     System.out.println("Saindo...");
                     break;
                 default:
-                    System.out.println("Opção inválida!");
+                    System.out.println("Opção inválida! Escolha um número entre 0 e 5.");
             }
         } while (opcao != 0);
 
-        scanner.close();
+        scanner.close();	
     }
 }
